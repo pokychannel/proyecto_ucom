@@ -8,7 +8,7 @@
 - **Integrantes**: Mínimo 4, Máximo 5
 - **Fecha de presentación**: 26 de Octubre
 - **Diagrama de referencia**: 
-![Diagrama](images/tareaDiplomadoBacken-Página-2.drawio (1).png)
+![Diagrama](images/tareaDiplomadoBacken-Página-2.drawio%20(1).png)
 
 ## Instrucciones
 
