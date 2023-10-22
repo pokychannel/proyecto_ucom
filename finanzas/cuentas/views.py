@@ -1,3 +1,12 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Cuenta, Transaccion
+from .serializers import CuentaSerializer, TransaccionSerializer
 
-# Create your views here.
+class CuentaViewSet(viewsets.ModelViewSet):
+    queryset = Cuenta.objects.all()
+    serializer_class = CuentaSerializer
+
+class TransaccionViewSet(viewsets.ModelViewSet):
+    queryset = Transaccion.objects.all()
+    serializer_class = TransaccionSerializer
+    
