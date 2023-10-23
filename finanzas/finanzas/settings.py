@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nq700(tuvf12!m#g*i_xl$%trw$m+wz#uolbmfa_qg@1yx$f)t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
 
 
 # Application definition
@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Apps local
+    'applications.cuentas',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
